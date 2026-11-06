@@ -1,0 +1,35 @@
+{
+  "name": "importguard-core",
+  "version": "0.1.0",
+  "description": "Deterministic, browser-local CSV import validator: schema mapping, strict DD/MM/YYYY dates, duplicate flags, JSON error reports. No telemetry.",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "csv",
+    "import",
+    "validator",
+    "onboarding",
+    "date-parsing"
+  ],
+  "license": "MIT",
+  "author": "Autofold",
+  "engines": {
+    "node": ">=16"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtislewis6/importguard-core.git"
+  },
+  "homepage": "https://github.com/kurtislewis6/importguard-core#readme",
+  "bugs": {
+    "url": "https://github.com/kurtislewis6/importguard-core/issues"
+  }
+}

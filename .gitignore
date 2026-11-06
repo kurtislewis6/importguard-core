@@ -1,0 +1,8 @@
+node_modules/
+*.tgz
+*.pem
+*.key
+.env
+.env.*
+*token*
+.npmrc
